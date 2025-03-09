@@ -1,0 +1,352 @@
+@media screen and ( max-width:1200px  )
+    header
+        .header_wrapper
+            nav
+                .header_menu_item
+                    padding-right: 20px
+        .subheader
+            padding-right: 90px
+    .promo
+        .promo_header
+            font-size: 50px
+        .promo_subheader
+            font-size: 30px
+        .promo_text
+            font-size: 17px
+    .advantage
+        .advantage_items
+            align-items: flex-start
+            .advantage_descr
+                width: 300px
+    .mobile
+        .row
+            .mobile_box
+                width: 300px
+                height: 280px
+    footer    
+        .footer_wrapper
+                .text_links_box
+                    .regular_links
+                        width: 321px
+                    .thin_links
+                        width: 337px
+                .app_links
+                    width: 240px
+                    margin: 47px 10px 0 0px
+                    .app_img
+                        width: 100%
+                        
+@media screen and ( max-width:991px  )
+    header
+        .header_wrapper
+            padding-right: 0px
+            nav
+                .header_menu_item
+                    padding-right: 15px
+                    .header_menu_link
+                        font-size: 12px
+        .subheader
+            .subheader_img
+                width: 100%
+            .subheader_text
+                margin-top: 5px
+                font-size: 9px
+            .subheader_call_us
+                margin-top: 5px
+                font-size: 10px
+            .subheader_tel_numb
+                font-size: 18px
+            .subheader_btn
+                margin-top: 7px
+                width: 160px
+                height: 40px
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 24px
+        .promo_text
+            font-size: 16px
+            word-wrap: break-word
+            br
+                display: none
+    .advantage
+        .advantage_items
+            flex-direction: column
+            align-items: center
+            .advantage_descr
+                text-align: center
+                word-wrap: break-word
+                margin-top: 10px
+                width: 300px
+    .mobile
+        .row
+            .mobile_box
+                width: 230px
+                height: 280px
+    .car
+        .car_img
+            width: 100%
+    footer
+        position: relative
+        .footer_wrapper>div
+            width: 100%
+        .footer_wrapper
+            .app_links
+                position: absolute
+                bottom: 10px
+                right: -6px
+                .app_img
+                    width: 79px
+            .social_links_box
+                position: absolute
+                bottom: 10px
+                left: -15px
+                .social_links_circle
+                    width: 28px
+                    height: 28px
+    .title
+            font-size: 32px
+
+
+@media screen and ( max-width: 767px  )
+    header
+        .header_wrapper
+            nav
+                position: fixed
+                display: flex
+                flex-direction: column
+                justify-content:  center
+                align-items: center
+                padding: 20px 15px
+                top: 0
+                left: -100%
+                width: 50%
+                height: 100vh
+                background-color: rgba(0, 0, 0, 0.9)
+                transition: 0.9s all
+                .header_menu_item
+                    width: 100%
+                    text-align: center
+                    padding-right: 0px
+                    margin-top: 10px
+                    border: none
+                    font-size: 20px
+                    .header_menu_link
+                        display: block
+            .active
+                    left: 0
+    .promo
+        .promo_header
+            font-size: 35px
+        .promo_subheader
+            font-size: 24px
+        .promo_text
+            font-size: 16px
+            word-wrap: break-word
+            br
+                display: none
+    .mobile
+        .row
+            .mobile_box
+                margin: 0 auto
+                margin-bottom: 30px
+                width: 290px
+                height: 254px
+    footer
+        .footer_wrapper>div
+            width: 100%
+            margin: 0 auto
+            &:nth-child(1)
+                order: 2
+            &:nth-child(2)
+                order: 1
+            &:nth-child(3)
+                order: 3
+        .footer_wrapper
+            display: flex
+            flex-direction: column
+            .app_links
+                position: relative
+                display: flex
+                justify-content: space-between
+                margin: 0 auto
+                margin-top: 20px
+                width: 247px
+                bottom: 0px
+                right: 0px
+                .app_img
+                    display: block
+                    margin: 0 auto
+                    width: 79px
+            .social_links_box
+                position: relative
+                margin: 0 auto
+                margin-top: 20px
+                bottom: 0px
+                left: 0px
+                .social_links_circle
+                    margin: 0 auto
+                    width: 28px
+                    height: 28px
+            .text_links_box
+                .regular_links
+                    margin-top: 23px
+                    width: 309px
+                .thin_links
+                    display: flex
+                    margin: 0 auto
+                    margin-top: 5px
+                    flex-wrap: wrap
+                    width: 200px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: white
+            margin-bottom: 2px
+            transition: 0.5s all
+    .hamburger_active
+        span
+            margin-bottom: -2px
+            &:nth-child(1)
+                transform: translateX(3px) rotate(-45deg)
+            &:nth-child(2)
+                display: none
+            &:nth-child(3)
+                transform: translateX(3px) rotate(45deg)
+    header
+        .subheader
+            padding: 10px 0px 17px 0px
+            .subheader_img
+                margin-top: 15px
+            .subheader_tel_number
+                display: block
+                margin: 0 auto
+                font-size: 16px
+                font-weight: 400
+                color: rgb(255, 255, 255)
+                text-transform: uppercase
+                text-align: center
+            .subheader_btn
+                display: block
+                width: 160px
+                height: 32px
+                margin: 0 auto
+                margin-top: 5px
+                .btn_text
+                    font-size: 10px
+    .xs-hidden
+        display: none
+    .xs-visibel
+        display: block
+    .title
+        font-size: 35px
+@media screen and ( max-width: 575px  )
+    .title
+        font-size: 16px
+    .subtitle
+        font-size: 14px
+    header
+        .header_wrapper
+            height: 30px
+            .header_menu
+                height: 30px
+                .hamburger
+                    top: 54%
+                .hamburger_active
+                    margin-top: 4px
+                nav
+                    .header_menu_item
+                        width: 100%
+                        text-align: center
+                        line-height: 18px
+                        .header_menu_link
+                            display: block
+        .subheader
+            top: 29px
+            .subheader_img
+                margin: 20px 0px 0px 5px
+                width: 111%
+            .subheader_btn
+                width: 130px
+                .btn_text
+    .promo
+        min-height: 400px
+        padding: 171px 0 35px 0
+        .promo_header
+            line-height: 1em
+        .promo_subheader
+            font-size: 21px
+        .text_hidden
+            display: none
+        .promo_btn
+            margin-top: 42px
+    .advantage
+        padding: 21px 0 47px 0
+        .title
+            margin-top: 15px     
+        .advantage_items
+            .advantage_descr
+                .advantage_title
+                    font-size: 16px
+                .advantage_text
+                    font-size: 14px
+            .advantage_circle
+                width: 100px
+                height: 100px
+                margin: 0 auto
+    .mobile
+        padding: 21px 0px 42px 0px
+    .car
+        padding: 25px 0px 31px 0px
+        min-height: 390px
+        background: url('../img/bg/xs-bg4.png') center (center / cover) no-repeat
+        .title
+            display: none
+        .subtitle
+            display: none  
+        .car_text
+            margin-top: 22px
+            color: rgb(255, 255, 255)
+        .car_img
+            margin-top: 35px
+    .require
+        padding: 25px 0px 25px 0px
+        .require_list
+            li
+                font-size: 18px
+    .map
+        padding: 25px 0px 30px 0px
+        min-height: 360px
+        .map_link
+            margin-top: 206px
+    footer
+        .line
+            width: 253px
+        .footer_wrapper
+            .text_links_box
+                .regular_links
+                    width: 280px
+                    .regular_link
+                        font-size: 14px
+                .thin_links
+                    width: 226px
+        .underline
+            height: 9px
+            margin-top: 32px
+
+
+    
+            
+
+
+
