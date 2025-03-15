@@ -1,0 +1,19 @@
+@forward    "fonts";
+@forward    "blocks/button";
+@forward    "blocks/promo";
+@forward    "blocks/header";
+@forward    "media";
+*{
+    font-family: "MuseoSansCyrl", sans-serif;
+    
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+     
+}
+a{
+    text-decoration: none;
+}
+

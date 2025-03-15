@@ -1,0 +1,17 @@
+@use "base/mixins" as *;
+@use "base/variables" as *;
+.button {
+    display: block; 
+    border: none;
+    border-radius: 5px;
+    background-color: $red-color;
+    left: 1280px;
+    top: 44px;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;    
+}
