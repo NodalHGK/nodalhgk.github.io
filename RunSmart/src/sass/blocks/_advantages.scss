@@ -1,0 +1,52 @@
+@use "base/variables" as *;
+.advantages {
+    padding: 69px 0px 78px 0px;
+    min-height: 469px;
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(13, 13, 13);
+        text-align: center;
+        text-transform: uppercase; 
+    }
+    &__icons {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        .advantages__icon {
+            display: flex;
+            margin: 0px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: flex-start;
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+            h3{
+                margin-top: 33px;
+                font-size: 18px;
+                font-weight: 700;
+                color: rgb(13, 13, 13);
+                text-align: center;
+            }
+            .advantages__descr{
+                    margin-top: 20px;
+                    width: 249px;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: rgb(13, 13, 13);
+                    line-height: 1.2;
+                    text-align: center;
+                    a{
+                        color: $red-color;
+                        text-transform: uppercase;
+                        text-decoration: underline;
+                    }
+                  
+            }
+    
+        }
+    }
+}
