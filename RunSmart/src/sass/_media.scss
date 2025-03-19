@@ -1,3 +1,23 @@
+@media screen and (max-width: 1090px) {
+    .carousel {
+        .prev, .next {
+            left: -51px;  
+        }
+        .next {
+            right: -51px;
+            left: auto;
+            
+        }
+
+    }
+}
+@media screen and (max-width: 1050px) {
+    .carousel {
+        .prev, .next {
+            display: none;  
+        }
+    }
+}
 @media screen and (max-width: 950px) {
     .promo {
         background: url("../img/bg/bg1_md.png") center (center / cover) no-repeat;

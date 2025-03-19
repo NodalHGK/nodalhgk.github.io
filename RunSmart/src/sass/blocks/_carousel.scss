@@ -1,17 +1,14 @@
 .carousel {
     position: relative;
     padding: 108px 0px 21px 0px;
-    &__wrapper {
-        width: 750px;
+     &__inner {
+        width: 100%;
         margin: 0 auto;
-        &__inner {
+        img{
             width: 100%;
-            margin: 0 auto;
-            img{
-                width: 100%;
-            }
         }
     }
+    
     .prev, .next {
         position: absolute;
         width: 50px;
@@ -37,14 +34,16 @@
     .tns-nav {
         display: flex;
         margin: 0 auto;
-        width: 60px;
+        margin-top: 10px;
+        width: 100px;
+        height: 20px;
         justify-content: space-between;
+        align-items: center;
         button {
             background-color: rgba(0, 0, 0, 0.19);
-            border-radius: 100%;
             border: none;
-            width: 3px;
-            height: 10px;
+            width: 2px;
+            height: 2px;
         }
         .tns-nav-active {
             background-color: rgba(0, 0, 0, 0.6);

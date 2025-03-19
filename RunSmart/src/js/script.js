@@ -8,18 +8,12 @@ const slider = tns({
   controls: false,
   navPosition: "bottom",
   responsive: {
-    640: {
-      edgePadding: 20,
-      gutter: 20,
-      items: 2
+    1051: {
+      nav: false,
     },
-    700: {
-      gutter: 30
-    },
-    998: {
-      items: 1,
+    1050: {
       nav: true,
-    },
+    }
   }
 });
 document.querySelector('.prev').addEventListener('click', function () {
