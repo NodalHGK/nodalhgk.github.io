@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/style.min.css">
     <link rel="shortcut icon" href="icons/running-man.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/slick.css"> -->
+    <link rel="stylesheet" href="css/style.min.css">
     <title>RunSmart</title>
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -52,8 +54,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="advantages">
+    </section>
+    <section class="advantages">
         <h2 class="advantages__title">наши преимущества</h2>
         <div class="container">
             <div class="advantages__icons">
@@ -86,13 +88,13 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="consultation">
+    </section>
+    <section class="consultation">
         <div class="container">
             <h2 class="consultation__title">
-                Получите бесплатную консультацию <br>по подбору пульсометра 
+                Получите бесплатную консультацию <br class="lg-hidden">по подбору пульсометра 
             </h2>
-            <div class="consultation__descr">
+            <div class="consultation__descr consultation_hidden2">
                 Просто заполните форму заявки  <br>и мы перезвоним вам в течении 10 минут
             </div>
             <form action="#" class="feed-form">
@@ -103,8 +105,32 @@
                     <!-- <input type="submit" value="Заказать консультацию"> -->
                      <button class="button button_form">Заказать консультацию</button>
             </form>
+            <div class="consultation__descr consultation_hidden1">
+                Просто заполните форму <br> заявки и мы перезвоним вам в течении 10 минут
+            </div>
         </div>
-    </div>
-
+    </section>
+    <section class="carousel">
+        <div class="container">
+                <div class="carousel__inner">
+                    <div>
+                        <img src="img/carousel/polar-m400-triple.png" alt="">
+                    </div>
+                    <div>
+                        <img src="img/carousel/polar-m600.png" alt="">
+                    </div>
+                    <div>
+                        <img src="img/carousel/polar_ac3gps.png" alt="">
+                    </div>
+                </div>
+                <button type="button" class="prev"><img src="img/carousel/left.svg" alt=""></button>
+                <button type="button" class="next"><img src="img/carousel/right.svg" alt=""></button>
+        </div>
+    </section>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

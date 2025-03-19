@@ -5,6 +5,7 @@
 @forward    "blocks/advantages";
 @forward    "blocks/consultation";
 @forward    "blocks/forms";
+@forward    "blocks/carousel";
 @forward    "media";
 *{
     margin: 0px;
@@ -13,6 +14,7 @@
 }
 
 .container{
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
      

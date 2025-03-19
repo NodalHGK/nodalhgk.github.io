@@ -21,6 +21,9 @@
             }
         }
     }
+    .consultation {
+        padding: 89px 22px 86px 22px;
+    }
 }
 @media screen and (max-width: 728px) {
     .advantages {
@@ -35,7 +38,26 @@
             }
         }
     }
-
+    .consultation {
+        padding: 89px 0px 86px 0px;
+        &__title {
+            font-size: 34px;
+            text-align: center;
+        }
+        &_hidden1{
+            display: inherit;
+            text-align: center;
+        }
+        &_hidden2 {
+            display: none;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 @media screen and (max-width: 690px) {
@@ -149,6 +171,14 @@
             }
         }
     }
+    .consultation {
+        &__title {
+            font-size: 26px;
+        }
+        &__descr{
+            font-size: 16px;
+        }
+    }
 }
 @media screen and (max-width: 389px) {
     .promo{
@@ -182,5 +212,17 @@
                 font-size: 12px;
             }
         }
+    }
+    .consultation {
+        height: 610px;
+        &__title {
+            font-size: 14px;
+        }
+        &__descr{
+            font-size: 12px;
+        }
+    }
+    .feed-form {
+        width: 260px;
     }
 }
