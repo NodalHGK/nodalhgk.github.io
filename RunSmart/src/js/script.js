@@ -48,3 +48,17 @@ document.querySelector('.next').addEventListener('click', function () {
   });
   })(jQuery);
 
+  const hiddenElements = document.querySelectorAll('.reviews__wrapper');
+
+  function checkVisibility() {
+    hiddenElements.forEach((element) => {
+      const rect = element.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        element.classList.add('reviews__wrapper_visible'); // Добавляем класс для появления
+      }
+    });
+  }
+
+  window.addEventListener('scroll', checkVisibility);
+
+  checkVisibility();
