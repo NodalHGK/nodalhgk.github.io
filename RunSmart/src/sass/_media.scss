@@ -57,6 +57,18 @@
             }
         }
     }
+    .reviews {
+        &__wrapper {
+            width: 100%;
+            .reviews__box {
+                margin-right: 5px;
+                .reviews__text {
+                    text-align: left;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width: 728px) {
     .advantages {
@@ -297,5 +309,25 @@
     }
     .feed-form {
         width: 260px;
+    }
+    .reviews {
+        &__wrapper {
+            width: 100%;
+            .reviews__img {
+                margin-right: 5px;
+                width: 100px;
+                height: 100px;
+            }
+            .reviews__box {
+                margin-right: 5px;
+                .reviews__name {
+                    font-size: 19px;
+                }
+                .reviews__text {
+                    text-align: left;
+                    font-size: 10px;
+                }
+            }
+        }
     }
 }
