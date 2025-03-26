@@ -44,7 +44,25 @@ document.querySelector('.next').addEventListener('click', function () {
 
     toggleSlide('.catalog__details');
     toggleSlide('.catalog__back');
+    // Modal
 
+    $('[data-modal=consultation]').on('click', function() {
+      $('.overlay, #consultation').fadeIn('slow');
+    });
+    //Close
+    $('.modal__close').on('click', function(){
+      $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
+    });
+    //Mini
+    $('.button_catalog').on('click', function(){
+      $('.overlay, #order').fadeIn('slow');
+    });
+    // Меняем описание в карточке    
+    $('.button_catalog').each(function(i) {
+      $(this).on('click', function () {
+          $('#order .modal__descr').text($('.catalog__subtitle').eq(i).text());    
+      });
+    });
   });
   })(jQuery);
 
