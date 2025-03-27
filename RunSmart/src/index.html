@@ -96,7 +96,7 @@
             <div class="consultation__descr consultation_hidden2">
                 Просто заполните форму заявки  <br>и мы перезвоним вам в течении 10 минут
             </div>
-            <form action="#" class="feed-form">
+            <form id="consultation-form" action="#" class="feed-form">
                     <input type="text" placeholder="Ваше имя" required name="name">
                     <input type="number" placeholder="Ваш телефон" required name="phone">
                     <input type="email" placeholder="Ваш E-mail" required name="email">
@@ -566,9 +566,9 @@
             <div class="modal__subtitle">Просто заполните форму заявки</div>
             <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
             <form action="#" class="feed-form feed-form_mt25">
-                <input type="text" placeholder="Ваше имя" required name="name">
-                <input type="number" placeholder="Ваш телефон" required name="phone">
-                <input type="email" placeholder="Ваш E-mail" required name="email">
+                <input type="text" placeholder="Ваше имя"  name="name">
+                <input type="number" placeholder="Ваш телефон"  name="phone">
+                <input type="email" placeholder="Ваш E-mail"  name="email">
 
                  <button class="button button_form">Заказать консультацию</button>
             </form>
@@ -596,6 +596,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

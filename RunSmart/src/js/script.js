@@ -63,6 +63,37 @@ document.querySelector('.next').addEventListener('click', function () {
           $('#order .modal__descr').text($('.catalog__subtitle').eq(i).text());    
       });
     });
+    //Валидация форм
+    function valideForms(form){
+      $(form).validate({
+        rules: {
+          name: {
+            required: true,
+            minlength: 2
+          },
+          phone: "required",
+          email: {
+            required: true,
+            email: true
+          }
+        },
+        messages: {
+          name: {
+            required: "Пожалуйста введите свое имя",
+            minlength: jQuery.validator.format("Минимальное кол-во символов {2}")
+          },
+          phone: "Пожалйуста введите свой телефон",
+          email: {
+            required: "Пожалуйста введите свой E-mail",
+            email: "Ваш почтовый адрес должен иметь формат name@domain.com"
+          }
+        }
+      });
+    };
+
+    valideForms('#consultation-form');
+    valideForms('#consultation form');
+    valideForms('#order form');
   });
   })(jQuery);
 

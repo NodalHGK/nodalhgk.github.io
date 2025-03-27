@@ -45,6 +45,15 @@
             align-items: center;
             min-height: 140px;
         }
+        .error{
+            border: 2px solid $red-color;
+        }
+        label.error{
+            border: none;
+            text-align: center;
+            font-weight: 300;
+            margin-bottom: 15px;
+        }
     }
 }
 

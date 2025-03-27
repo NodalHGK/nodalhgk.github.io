@@ -1,3 +1,4 @@
+@use "base/variables" as *;
 .consultation {
     min-height: 680px;
     background: url("../img/bg/bg2.png") center (center / cover) no-repeat;
@@ -19,5 +20,15 @@
     }
     &_hidden1{
         display: none;
+    }
+    .error{
+        border: 2px solid $red-color;
+    }
+    label.error{
+        border: none;
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 15px;
+        color: rgb(255, 255, 255);
     }
 }

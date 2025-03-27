@@ -127,6 +127,13 @@
             }
         }
     }
+    .overlay {
+        .modal {
+            .feed-form_mt25 {
+                margin-top: 25px;
+            }
+        }
+    }
 
 }
 @media screen and (max-width: 690px) {
@@ -272,6 +279,15 @@
             font-size: 18px;
         }
     }
+    .overlay {
+        .modal {
+            &__close {
+                top: -13px;
+                right: 7px;
+                font-size: 43px;
+            }
+        }
+    }
 }
 @media screen and (max-width: 389px) {
     .promo{
@@ -335,6 +351,17 @@
                     text-align: left;
                     font-size: 10px;
                 }
+            }
+        }
+    }
+    .overlay {
+        .modal {
+            width: 340px;
+            &__subtitle {
+                font-size: 16px;
+            }
+            &__descr {
+                font-size: 13px;
             }
         }
     }
