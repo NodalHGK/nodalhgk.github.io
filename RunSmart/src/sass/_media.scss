@@ -90,6 +90,7 @@
             text-align: center;
         }
         &_hidden1{
+            margin-top: 40px;
             display: inherit;
             text-align: center;
         }
@@ -330,6 +331,9 @@
         &__descr{
             font-size: 12px;
         }
+        label.error{
+            font-size: 14px;
+        }
     }
     .feed-form {
         width: 260px;
@@ -362,6 +366,12 @@
             }
             &__descr {
                 font-size: 13px;
+            }
+            &__close {
+                right: 17px;
+            }
+            label.error{
+                font-size: 14px;
             }
         }
     }

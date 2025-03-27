@@ -94,6 +94,8 @@ document.querySelector('.next').addEventListener('click', function () {
     valideForms('#consultation-form');
     valideForms('#consultation form');
     valideForms('#order form');
+
+    $('input[name=phone]').mask("+7 (999) 999-9999");
   });
   })(jQuery);
 
