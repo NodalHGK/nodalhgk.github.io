@@ -1,0 +1,41 @@
+@use "base/mixins" as *;
+@use "base/variables" as *;
+.button {
+    display: block; 
+    border: none;
+    border-radius: 5px;
+    background-color: $red-color;
+    left: 1280px;
+    top: 44px;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    &_main {
+        margin-top: 67px;
+        width: 300px;
+        height: 50px;
+        font-size: 16px;   
+    }
+    &_form {
+        margin-top: 20px;
+        width: 100%;
+        height: 55px;
+        font-size: 16px; 
+    }
+    &_catalog {
+        border-radius: 5px;
+        border: none;
+        background-color: $red-color;
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        text-align: center;
+    }
+}

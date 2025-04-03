@@ -1,0 +1,57 @@
+.reviews {
+    padding-bottom: 60px;
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(13, 13, 13);
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 65px;
+        width: 890px;
+        justify-content: space-between;
+        align-items: center;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 2.5s, transform 0.5s;
+    
+        .reviews__img {
+            height: 169px;
+            margin-right: 52px;
+            margin-left: 5px;
+        }
+        .reviews__box {
+            .reviews__name {
+                font-size: 18px;
+                font-weight: 700;
+                color: rgb(13, 13, 13);
+                text-align: left;      
+            }
+            .reviews__achievements {
+                font-size: 14px;
+                font-weight: 300;
+                color: rgb(100, 100, 100);
+                text-align: left;
+            }
+            .reviews__text {
+                margin-top: 20px;
+                font-size: 16px;
+                color: rgb(13, 13, 13);
+                line-height: 1.1;
+                text-align: left;
+                span {
+                    display: block;
+                    margin-top: 26px;
+                }
+            }   
+        }
+    }
+    &__wrapper_visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+  

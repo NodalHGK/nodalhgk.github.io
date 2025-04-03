@@ -1,0 +1,42 @@
+@forward    "libs/bootstrap-reboot.min.scss";
+@forward    "fonts";
+@forward    "blocks/button";
+@forward    "blocks/promo";
+@forward    "blocks/header";
+@forward    "blocks/advantages";
+@forward    "blocks/consultation";
+@forward    "blocks/forms";
+@forward    "blocks/carousel";
+@forward    "blocks/catalog";
+@forward    "blocks/review";
+@forward    "blocks/footer";
+@forward    "blocks/modal";
+@forward    "media";
+* {
+    margin: 0px;
+    font-family: "MuseoSansCyrl", sans-serif;
+    
+}
+
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+     
+}
+a {
+    text-decoration: none;
+}
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    img {
+        width: 100%;
+        
+    }
+}
+
