@@ -1,6 +1,6 @@
 const slider = tns({
     container: '.promo__slider',
-    items: 6,
+    items: 5,
     slideBy: '1',
     autoplay: true,
     loop: true,
