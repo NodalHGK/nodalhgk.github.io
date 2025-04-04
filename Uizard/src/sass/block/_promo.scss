@@ -1,3 +1,4 @@
+@use    "base/animation" as *;
 .promo {
     padding: 100px 0 90px 0;
     box-sizing: border-box;
@@ -100,6 +101,22 @@
         font-size: 22.7px;
         text-align: center;
         color: rgb(255, 255, 255);
+    }
+    &__slider-container {
+        margin-top:70px;
+        overflow: hidden;
+        mask-image: linear-gradient(to right, transparent, black 30%, black 70%, transparent);
+        perspective: 600px;
+    }
+    &__slider {
+        display: flex;
+        gap: 20px;
+        width: max-content;
+        flex-wrap: nowrap;
+        animation: infiniteScroll 200s linear infinite;
+        &_img {
+            transform: rotateY(10deg);
+        }
     }
 }
 
