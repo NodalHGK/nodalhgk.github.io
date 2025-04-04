@@ -1,6 +1,114 @@
 .promo {
+    padding: 100px 0 90px 0;
+    box-sizing: border-box;
     background: url('../img/bg/bg1.png') center (center / cover) no-repeat;
     min-height: 1592px;
+    background-color: rgb(0, 0, 0);
+    &__title {
+        font-weight: 500;
+        font-size: 67.6px;
+        line-height: 72px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    &__subtitle {
+        margin-top: 32px;
+        font-weight: 500;
+        font-size: 22.7px;
+        line-height: 32px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    &__wrapper {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        margin: 64px 0 80px 0;
+        form {
+            display: flex;
+            justify-content: flex-start;
+            input {
+                padding: 13px 120px 13px 12px;
+                box-sizing: border-box;
+                width: 520px;
+                height: 48px;
+                border-radius: 12px;
+                border: none;
+                outline: none;
+                
+            }
+        }
+    }
+    &__button {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        right: 350px;
+        width: 147.19px;
+        height: 48px;
+        background: radial-gradient(50% 50% at 50% 50%, #A881FE 0%, #6419FF 100%);
+        mix-blend-mode: normal;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 15.1px;
+        color: rgb(255, 255, 255);
+        transition: box-shadow 600ms ease-in-out, background 450ms ease-in-out;
+        &:hover {
+            background: linear-gradient(0deg,#A47CF3,#683FEA);
+            box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0),
+            inset 0px -4px 0px 0px rgba(0, 0, 0, 0.1),
+            0px 0px 0px 4px rgba(255, 255, 255, 0.1),
+            0px 0px 180px 25px rgba(153, 23, 255, 1);
+            .promo__button-sparkle, .promo__button-text {
+                transform: scale(1.2);
+            }
+        }
+        &-sparkle {
+            fill: rgb(255, 255, 255);
+            transition: all 800ms ease;
+        }
+        &-text {
+            transition: all 800ms ease;
+        }
+    }
+    &__container {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        height: 592px;
+        width: 1012px;
+        padding: 26px;
+        box-sizing: border-box;
+        background: rgba(33, 33, 33, 0.32);
+        border: 2px solid rgba(255, 255, 255, 0.32);
+        border-radius: 16px;
+        overflow: hidden;
+    }
+    &__video {
+        width: 100%;
+        border-radius: 16px;
+    }
+    &__clients {
+        margin-top: 112px;
+        font-weight: 600;
+        font-size: 22.7px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
 }
+
+.test {
+    min-height: 500px;
+    background-color: red;
+}
+
+
+
 
 
