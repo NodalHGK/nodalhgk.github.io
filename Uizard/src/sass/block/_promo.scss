@@ -22,9 +22,12 @@
     }
     &__wrapper {
         position: relative;
+        width: 600px;
+        left: 50%;
+        transform: translatex(-50%);
         display: flex;
         justify-content: center;
-        align-items: center;    
+        align-items: center;   
         margin: 64px 0 80px 0;
         form {
             display: flex;
@@ -47,7 +50,7 @@
         justify-content: center;
         align-items: center;
         gap: 12px;
-        right: 350px;
+        right: 10px;
         width: 147.19px;
         height: 48px;
         background: radial-gradient(50% 50% at 50% 50%, #A881FE 0%, #6419FF 100%);
@@ -119,8 +122,3 @@
         }
     }
 }
-
-
-
-
-

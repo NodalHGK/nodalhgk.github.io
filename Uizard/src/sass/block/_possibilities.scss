@@ -57,6 +57,113 @@
         text-align: center;
         color: $base-white;
     }
+    &__wrapper {
+        display: flex;
+        padding-top: 60px;
+        justify-content: center;
+        align-items:center;
+        flex-wrap: wrap;
+    }
+    &__box {
+        margin: 10px;
+        border-radius: 16px;
+        border: 1px solid #2E2E2E;
+        padding: 41px 0 0 41px;
+        background-color: #6419FF;
+        h3 {
+            font-weight: 600;
+            font-size: 22.7px;
+            line-height: 32px;
+            color: $base-white;
+        }
+        .possibilities__descr {
+            margin-top: 24px;
+            font-weight: 600;
+            font-size: 14.9px;
+            line-height: 20px;
+            color: $base-white;
+        }
+        &_1 {
+            width: 725px;
+            height: 520px;
+            background: url('../img/bg/bg_box_1.png') center (center / cover) no-repeat;
+            overflow: hidden;
+            .possibilities__img {
+                margin-top: 33px;
+                width: 100%;
+            }
+        }
+        &_2 {
+            width: 511px;
+            height: 520px;
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+            .img__wrapper {
+                padding: 36px 61px 0 0;
+                .possibilities__img {
+                    display: block;
+                    margin: 0 auto;
+                    width: 100%;
+                }
+            }
+        }
+        &_3 {
+            position: relative;
+            width: 511px;
+            height: 404px;
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+            .possibilities__img {
+                position: absolute;
+                left: 0;
+                margin-top: 33px;
+                width: 100%;
+            }
+        }
+        &_4 {
+            position: relative;
+            width: 725px;
+            height: 404px;
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+            .possibilities__descr {
+                margin-top: 0;
+            }
+            .img__wrapper {
+                width: 100%;
+                padding-top: 25px;
+                .possibilities__img_absolute {
+                    position: absolute;
+                    right: -1px;
+                    bottom: -1px;
+                }
+            }   
+        }
+        &_5 {
+            width: 618px;
+            height: 436px;
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+            .img__wrapper {
+                width: 100%;
+                padding-top: 33px;
+                padding-right: 40px;
+            }
+        }
+        &_6 {
+            width: 618px;
+            height: 436px;
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+            .img__wrapper {
+                width: 100%;
+                padding: 33px 128.45px 0 90px;
+                .possibilities__img {
+                    width: 100%;
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }   
+    }   
 }
-
-
