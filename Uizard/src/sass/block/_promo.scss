@@ -111,14 +111,14 @@
         mask-image: linear-gradient(to right, transparent, black 30%, black 70%, transparent);
         perspective: 600px;
     }
-    &__slider {
+    .promo__slider {
         display: flex;
         gap: 20px;
         width: max-content;
+        align-items: center;
         flex-wrap: nowrap;
-        animation: infiniteScroll 200s linear infinite;
+        animation: infiniteScroll 600s linear infinite;
         &_img {
-            transform: rotateY(10deg);
         }
     }
 }

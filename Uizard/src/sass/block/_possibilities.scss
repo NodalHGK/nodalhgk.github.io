@@ -61,15 +61,14 @@
         display: flex;
         padding-top: 60px;
         justify-content: center;
-        align-items:center;
+        align-items: flex-start;
         flex-wrap: wrap;
+        gap: 12px;
     }
     &__box {
-        margin: 10px;
         border-radius: 16px;
         border: 1px solid #2E2E2E;
         padding: 41px 0 0 41px;
-        background-color: #6419FF;
         h3 {
             font-weight: 600;
             font-size: 22.7px;
