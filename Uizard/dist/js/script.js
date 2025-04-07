@@ -13,9 +13,41 @@ const slider1 = tns({
   gutter: 30,
   autoWidth: true,
 });
-const sliders = document.querySelectorAll('.reviews__slider');
-const slider = tns({
+
+const slider2 = tns({
   container: '.reviews__slider',
+  items: 5,
+  slideBy: 'page',
+  autoplay: true,
+  nav: false,
+  seed: 300,
+  autoplayTimeout: 0,
+  loop: true,
+  controlsContainer: false,
+  controls: false,
+  autoplayButtonOutput: false,
+  autoWidth: true,
+  axis: "vertical",
+});
+
+const slider3 = tns({
+  container: '.reviews__slider_middle',
+  items: 5,
+  slideBy: 'page',
+  autoplay: true,
+  nav: false,
+  seed: 300,
+  autoplayTimeout: 0,
+  loop: true,
+  controlsContainer: false,
+  controls: false,
+  autoplayButtonOutput: false,
+  autoWidth: true,
+  axis: "vertical",
+});
+
+const slider4 = tns({
+  container: '.reviews__slider_right',
   items: 5,
   slideBy: 'page',
   autoplay: true,

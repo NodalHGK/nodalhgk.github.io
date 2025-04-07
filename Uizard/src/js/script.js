@@ -16,7 +16,7 @@ const slider1 = tns({
 
 const slider2 = tns({
   container: '.reviews__slider',
-  items: 5,
+  items: 3,
   slideBy: 'page',
   autoplay: true,
   nav: false,
@@ -32,7 +32,7 @@ const slider2 = tns({
 
 const slider3 = tns({
   container: '.reviews__slider_middle',
-  items: 5,
+  items: 3,
   slideBy: 'page',
   autoplay: true,
   nav: false,
@@ -48,7 +48,7 @@ const slider3 = tns({
 
 const slider4 = tns({
   container: '.reviews__slider_right',
-  items: 5,
+  items: 3,
   slideBy: 'page',
   autoplay: true,
   nav: false,
