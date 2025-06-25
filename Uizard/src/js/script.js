@@ -1,7 +1,7 @@
 const slider1 = tns({
-  container: '.promo__slider',
+  container: ".promo__slider",
   items: 5,
-  slideBy: 'page',
+  slideBy: "page",
   autoplay: true,
   nav: false,
   seed: 300,
@@ -15,9 +15,9 @@ const slider1 = tns({
 });
 
 const slider2 = tns({
-  container: '.reviews__slider',
+  container: ".reviews__slider",
   items: 3,
-  slideBy: 'page',
+  slideBy: "page",
   autoplay: true,
   nav: false,
   seed: 300,
@@ -31,9 +31,9 @@ const slider2 = tns({
 });
 
 const slider3 = tns({
-  container: '.reviews__slider_middle',
+  container: ".reviews__slider_middle",
   items: 3,
-  slideBy: 'page',
+  slideBy: "page",
   autoplay: true,
   nav: false,
   seed: 300,
@@ -47,9 +47,9 @@ const slider3 = tns({
 });
 
 const slider4 = tns({
-  container: '.reviews__slider_right',
+  container: ".reviews__slider_right",
   items: 3,
-  slideBy: 'page',
+  slideBy: "page",
   autoplay: true,
   nav: false,
   seed: 300,
@@ -61,4 +61,3 @@ const slider4 = tns({
   autoWidth: true,
   axis: "vertical",
 });
-
